@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- curser -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <section class="colored-section" id="title">
+
+        <div class="container-fluid">
+
+            <!-- Nav Bar -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <a class="navbar-brand" href="index.html">Logo</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="skill.html">My Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="work.html">My Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </section>
+
+    <!-- My img -->
+
+    <div id="wrapper">
+
+
+        <div class="container contact">
+
+            <div class="text-zone">
+
+                <h1>Contact me </h1>
+
+                <p>I am interested in freelance opportunities.But,I'm just a<br>beginner if you have faith in me don't hesitate to contact <br> me using below form either.</p>
+
+                <div class="contact-form">
+                    <form id="contact" autocomplete="off">
+                        <ul>
+                            <li class="half">
+
+                                <input class="" placeholder="Name" type="text"
+                                    name="name" />
+                                <label class=""></label>
+
+                            </li>
+                            <li class="half">
+                                <input class="" placeholder="Email" type="email"
+                                    name="email" />
+                                <label class=""></label>
+                            </li>
+                            <li>
+                                <input class="" placeholder="Subject" type="text"
+                                    name="subject" />
+                                <label class=""></label>
+                            </li>
+                            <li>
+                                <textarea class="" placeholder="Message"
+                                    name="msg"></textarea>
+                                <label class=""></label>
+                            </li>
+                            <li class="submit">
+                                <input type="hidden" name="" value=""></input>
+                                <input id="submit" type="submit" class="flat-button" value="SEND" />
+                            </li>
+                        </ul>
+                    </form>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <!-- curser -->
+
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+
+        <!-- javascript -->
+
+        <script src="curser.js"></script>
+
+</body>
+
+</html>
